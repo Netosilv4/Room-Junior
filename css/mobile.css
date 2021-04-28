@@ -1,0 +1,58 @@
+.headerDiv {
+    width: 100%;
+    position: absolute;
+}
+
+.navMenu {
+    display: none;
+}
+
+.menuIcons {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8vw 7vw;
+}
+
+.logo {
+    width: 20vw;
+}
+
+.menuHamb {
+    width: 5vw;
+}
+
+.hero {
+    width: 100%;
+}
+
+.arrows {
+    display: flex;
+    width: 100%;
+    transform: translateY(-110%);
+    justify-content: flex-end;
+}
+
+.arrows img {
+    background-color: black;
+    width: 3%;
+    padding: 3vw;
+}
+
+.asideDiv {
+    padding: 4vw 10vw;
+    height: 80vw;
+}
+
+
+.shop {
+    padding-top: 14vw;
+    font-weight: 600;
+    font-size: 3.5vw;
+    letter-spacing: 2vw;
+}
+
+.downTwo {
+    padding: 20vw 10vw;
+    height: 50vw;
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;600;700&display=swap');
+
+:root {
+    /* Colors */
+
+  --white: hsl(0, 0%, 100%);
+  --black:hsl(0, 0%, 0%);
+  --gray: hsl(0, 0%, 63%);
+  --dark-gray:  hsl(0, 0%, 27%);
+
+    /* Fonts */
+
+   --font: 'Spartan', sans-serif;
+
+}
+
+.shop:hover {
+    cursor: pointer;
+}
+
+.arrows img:hover {
+    cursor: pointer;
+    background-color: var(--dark-gray);
+}
+
+.navMenu li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.menuHamb:hover {
+    cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font);
+  list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+}
+
+p {
+    color: var(--gray);
+    font-weight: 600;
+
+}
+
+h1{
+    font-weight: 600;
+}
+
+@media (max-width:799px){
+
+    body {
+        font-size: 3vw;
+    }   
+    
+    p {
+        line-height: 5vw;
+    }
+    
+    h1{
+        font-size: 7vw;
+        padding-bottom: 8vw;
+    }
+    
+}
