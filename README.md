@@ -47,5 +47,4 @@ Users should be able to:
 ## Author
 
 - Website - [Neto Silva](https://netosilv4.github.io/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Netosilv4)
 
